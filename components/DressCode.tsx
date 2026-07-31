@@ -1,16 +1,15 @@
 import SectionTitle from "./SectionTitle";
 
 const ladies = [
-  { name: "Ivory", hex: "#F8F3EA" },
   { name: "Blush", hex: "#D9B8AE" },
   { name: "Olive Green", hex: "#78805B" },
   { name: "Old Gold", hex: "#B08D57" },
 ];
 
 const gentlemen = [
-  { name: "Dark Chocolate", hex: "#3B2325" },
-  { name: "Burgundy", hex: "#651B2A" },
-  { name: "Midnight", hex: "#22232B" },
+  { name: "Dark Chocolate", hex: "#512b2e" },
+  { name: "Black", hex: "#000000" },
+  { name: "Grey", hex: "#6e6f76" },
 ];
 
 export default function DressCode() {
@@ -20,8 +19,8 @@ export default function DressCode() {
         <SectionTitle title="Dress Code" subtitle="Formal Evening Attire" />
 
         <p className="mx-auto -mt-10 mb-4 max-w-lg text-center text-lg leading-8 text-gray-600">
-          We ask our guests to dress in formal evening attire — long dresses
-          or elegant gowns for ladies, suits for gentlemen.
+          We ask our guests to dress in formal evening attire — long dresses or
+          elegant gowns for ladies, suits for gentlemen.
         </p>
 
         <p className="mx-auto mb-16 max-w-lg text-center text-gray-600">
