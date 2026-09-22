@@ -1,66 +1,45 @@
 import SectionTitle from "./SectionTitle";
 
-const ladies = [
-  { name: "Blush", hex: "#D9B8AE" },
-  { name: "Olive Green", hex: "#78805B" },
-  { name: "Old Gold", hex: "#B08D57" },
-];
-
-const gentlemen = [
-  { name: "Dark Chocolate", hex: "#512b2e" },
-  { name: "Black", hex: "#000000" },
-  { name: "Grey", hex: "#6e6f76" },
-];
-
 export default function DressCode() {
   return (
     <section className="bg-[#F8F3EA] py-24">
-      <div className="mx-auto max-w-3xl px-6">
-        <SectionTitle title="Dress Code" subtitle="Formal Evening Attire" />
+      <div className="mx-auto max-w-2xl px-6 text-center">
+        <SectionTitle title="A Note From Us" />
 
-        <p className="mx-auto -mt-10 mb-4 max-w-lg text-center text-lg leading-8 text-gray-600">
-          We ask our guests to dress in formal evening attire — long dresses or
-          elegant gowns for ladies, suits for gentlemen.
+        <p className="mx-auto mt-8 max-w-xl text-lg leading-8 text-gray-600">
+          Having you with us on this special day
+          <br />
+          means more than we could ever put into words.
         </p>
 
-        <p className="mx-auto mb-16 max-w-lg text-center text-gray-600">
-          Kindly avoid white and ivory, reserved for the bride. We&apos;d love
-          to see you in tones that complement the evening.
+        <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
+          Thank you for being part of our story
+          <br />
+          and celebrating this new chapter with us.
         </p>
 
-        <div className="flex flex-wrap justify-center gap-16">
-          <div className="flex flex-col items-center gap-4">
-            <h4 className="text-xs uppercase tracking-[0.32em] text-[#3B2325]/70">
-              Ladies
-            </h4>
-            <div className="flex gap-3">
-              {ladies.map((c) => (
-                <span
-                  key={c.name}
-                  title={c.name}
-                  className="h-7 w-7 rounded-full border border-[#3B2325]/15 shadow-sm"
-                  style={{ background: c.hex }}
-                />
-              ))}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center gap-4">
-            <h4 className="text-xs uppercase tracking-[0.32em] text-[#3B2325]/70">
-              Gentlemen
-            </h4>
-            <div className="flex gap-3">
-              {gentlemen.map((c) => (
-                <span
-                  key={c.name}
-                  title={c.name}
-                  className="h-7 w-7 rounded-full border border-[#3B2325]/15 shadow-sm"
-                  style={{ background: c.hex }}
-                />
-              ))}
-            </div>
-          </div>
+        {/* Optional couple drawing:
+            Replace this empty frame with your drawing when you're ready.
+            Suggested file path: /images/couple-drawing.png
+        */}
+        <div
+          className="mx-auto mt-20 flex aspect-[4/3] w-full max-w-sm items-center justify-center border border-dashed border-[#B08D57]/40"
+          aria-label="Optional couple drawing placeholder"
+        >
+          <span
+            className="text-xs uppercase tracking-[0.28em] text-[#3B2325]/35"
+            aria-hidden
+          >
+            Your drawing
+          </span>
         </div>
+
+        <p
+          className="mt-8 text-2xl text-[#78805B]"
+          style={{ fontFamily: "var(--font-script)" }}
+        >
+          With love, Mahmoud &amp; Ons
+        </p>
       </div>
     </section>
   );
