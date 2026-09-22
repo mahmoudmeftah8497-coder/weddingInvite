@@ -7,7 +7,7 @@ import Seal from "./Seal";
 type Stage = "silence" | "card" | "closed";
 
 export default function OpeningScreen() {
-  const [stage, setStage] = useState<Stage>("silence");
+  const [stage, setStage] = useState<Stage>("card");
   const [cracking, setCracking] = useState(false);
 
   function handleSealTap() {
