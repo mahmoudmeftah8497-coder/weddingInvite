@@ -20,7 +20,6 @@ export default function Home() {
         <Countdown />
         <Quote />
         <Events />
-        <DressCode />
       </main>
     </>
   );
