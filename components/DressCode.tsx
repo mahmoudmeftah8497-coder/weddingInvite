@@ -22,16 +22,12 @@ export default function DressCode() {
             Replace this empty frame with your drawing when you're ready.
             Suggested file path: /images/couple-drawing.png
         */}
-        <div
-          className="mx-auto mt-20 flex aspect-[4/3] w-full max-w-sm items-center justify-center border border-dashed border-[#B08D57]/40"
-          aria-label="Optional couple drawing placeholder"
-        >
-          <span
-            className="text-xs uppercase tracking-[0.28em] text-[#3B2325]/35"
-            aria-hidden
-          >
-            Your drawing
-          </span>
+        <div className="mx-auto mt-14 max-w-md">
+          <img
+  src="/ChatGPT Image Sep 22, 2026, 08_46_35 PM.png"
+  alt="Mahmoud and Ons"
+  className="h-auto w-full object-contain"
+/>
         </div>
 
         <p
