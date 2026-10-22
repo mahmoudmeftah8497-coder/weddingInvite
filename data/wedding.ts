@@ -2,7 +2,7 @@ export const wedding = {
   groom: "Mahmoud Meftah",
   bride: "Ons Ounissi",
 
-  weddingDate: new Date("2026-10-31T18:00:00"),
+  weddingDate: new Date("2026-10-31T16:00:00"),
 
   venue: {
     name: "Municipalité La Marsa",
